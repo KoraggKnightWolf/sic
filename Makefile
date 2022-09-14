@@ -7,7 +7,7 @@ VERSION = 1.3
 PREFIX = /usr/local
 MANPREFIX = ${PREFIX}/share/man
 
-# use system flags.
+# use system flags..
 SIC_CFLAGS = ${CFLAGS}
 SIC_LDFLAGS = ${LDFLAGS}
 SIC_CPPFLAGS = ${LDFLAGS} -DVERSION=\"${VERSION}\" -D_GNU_SOURCE
