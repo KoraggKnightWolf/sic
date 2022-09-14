@@ -1,3 +1,7 @@
+NOTE: The *.diff patches are already applied to sic.c (and config.def.h where applicable) and are ONLY included for code reference, when comparing this to https://git.suckless.org/sic
+
+Also changed command (input) character from default : to / to be more in line with (all) other IRC clients.
+
 sic - simple irc client
 =======================
 sic is an extremely fast, small and simple irc client.  It reads commands from
